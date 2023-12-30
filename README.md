@@ -8,6 +8,10 @@ An implementation of an interpreter for the [brainfuck programming language](htt
 
 - [cargo](https://rustup.rs/)
 
+## Run tests
+
+`cargo test`
+
 ## Run
 
-`cargo run --release -- program.bf`
+`cargo run -- program.bf`

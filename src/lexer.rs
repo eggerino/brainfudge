@@ -71,9 +71,7 @@ impl JumpTable {
 
 #[cfg(test)]
 mod tests {
-    use crate::lexer::JumpTableError;
-
-    use super::{JumpTable, Token};
+    use super::*;
 
     #[test]
     fn parse_token() {

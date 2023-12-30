@@ -26,7 +26,7 @@ fn tokenize(source: &str) -> Vec<Token> {
     source
         .chars()
         .map(|x| Token::parse(&x))
-        .filter(|x| x.is_some())
-        .map(|x| x.unwrap())
+        .filter(Option::is_some)
+        .map(Option::unwrap)
         .collect()
 }
